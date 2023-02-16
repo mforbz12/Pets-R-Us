@@ -1,8 +1,0 @@
-.change-color {
-  background-color: rgb(243, 176, 176);
-  transition: background-color 3s linear;
-}
-
-.change-color:hover {
-  background-color: transparent;
-}
