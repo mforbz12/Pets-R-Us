@@ -1,2 +1,5 @@
 //extension's code
-var contents = document.getElementById('contents');
+let test = document.querySelectorAll('p');
+test.forEach(text) => {
+  text.style.color = 'red';
+}
