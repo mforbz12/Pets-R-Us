@@ -11,5 +11,8 @@
       "matches": ["<all_urls>"],
       "js": ["./main.js"]
     }
-  ]
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "https://www.petfinder.com/"
+  }
 }
