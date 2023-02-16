@@ -1,5 +1,13 @@
 {
   "manifest_version": 1,
   "name": "Pets-R-Us",
-  "version": "1.0"
+  "version": "1.0",
+  "description": "fill this in",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"],
+      "css": ["style.css"]
+    }
+  ]
 }
