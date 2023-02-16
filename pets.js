@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', (e)=>{
     const getDogPhotos = async () =>{
         const photos = await fetch("https://dog.ceo/api/breeds/image/random/5")
         .then(res => res.json())
-        .then(data =>{
+         .then(data =>{
+
             data.message.forEach((element, index) => {
                 const newImage = document.createElement('img')
                 newImage.id = `photo${index}`
