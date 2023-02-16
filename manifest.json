@@ -4,12 +4,13 @@
   "version": "1.0",
   "description": "fill this in",
   "action" : {
-    "default_popup" : "hello.html"
+    "default_popup" : "popup.html"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["./main.js"]
+      "js": ["main.js"],
+      "css": ["style.css"]
     }
   ],
   "chrome_url_overrides" : {
