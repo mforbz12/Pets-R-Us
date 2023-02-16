@@ -1,14 +1,6 @@
 //extension's code
-
-//changes any paragraph text to red
-let test = document.querySelectorAll('p');
-test.forEach((text) => {
-  text.style.color = 'red';
-})
-
-
 let colorFlow = ["#fff1f5","#FDDDE6","#FDD5DF", "#FECDD7", "#FEC6D0", "#FFBEC8", "#FFB6C1"]
-//changes background color to pink as you mouse over
+//changes background color to pink
 const divs = document.querySelectorAll('div')
 
 divs.forEach((div) => {
@@ -17,21 +9,21 @@ divs.forEach((div) => {
     }, 6000);
   setTimeout(() => {
     div.style.backgroundColor = colorFlow[1];
-  }, 7000);
+  }, 6100);
   setTimeout(() => {
     div.style.backgroundColor = colorFlow[2];
-  }, 8000);
+  }, 6200);
   setTimeout(() => {
     div.style.backgroundColor = colorFlow[3];
-  }, 9000);
+  }, 6300);
   setTimeout(() => {
     div.style.backgroundColor = colorFlow[4];
-  }, 10000);
+  }, 6400);
   setTimeout(() => {
     div.style.backgroundColor = colorFlow[5];
-  }, 11000);
+  }, 6500);
   setTimeout(() => {
     div.style.backgroundColor = colorFlow[6];
-  }, 12000);
+  }, 6600);
 
   }, false);
